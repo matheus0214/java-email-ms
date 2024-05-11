@@ -1,6 +1,6 @@
 version: '3'
 services:
-  pg:
+  pg-email:
     image: postgres
     ports:
       - "5433:5432"
