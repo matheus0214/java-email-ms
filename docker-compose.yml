@@ -8,3 +8,9 @@ services:
       POSTGRES_USER: "user"
       POSTGRES_PASSWORD: "123456"
       POSTGRES_DB: "ms-email"
+    networks:
+      - java-user-email
+
+networks:
+  java-user-email:
+    external: true
